@@ -1,0 +1,10 @@
+services:
+  bot:
+    build:
+      context: .
+
+
+    volumes:
+      db-data: /app/data
+volumes:
+  db-data:
